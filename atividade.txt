@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>atividade html</title>
+</head>
+
+<body><!-- Tag H1, H2, H3, H4, H5, H6 -->
+    <h1>Enchentes no Rio Grande</h1>
+    
+    <Hr>
+    
+    <!-- Paragrafo -->
+    <p>
+        O governo federal estuda mecanismos para reduzir as contas de luz neste mês para
+        os consumidores do Rio Grande do Sul, disse nesta sexta-feira (10) o ministro de Minas e 
+        Energia, Alexandre Silveira.
+         A ideia é buscar recursos para reduzir 
+        ou evitar a cobrança de energia nas regiões alagadas, afirmou ele.          
+
+    </p>
+    
+     </body>
+
+<body>
+    <p>
+        Dentre as opções em análise, está o uso de parte do saldo positivo da
+         Conta de Comercialização da
+          Energia Elétrica da usina de Itaipu.
+         Esse saldo foi de R$ 399,2 milhões em 2023,
+         de acordo com dados da Agência Nacional de Energia Elétrica.
+    
+    </p>
+</body>
+
+
+</html>

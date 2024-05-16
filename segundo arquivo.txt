@@ -1,0 +1,37 @@
+ CREATE TABLE ALUNOS (
+         ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+         NOME VARCHAR(255) NOT NULL,
+         EMAIL VARCHAR(255),
+         STATUS BOOL DEFAULT TRUE
+     );
+
+
+SELECT * FROM ALUNOS;
+    //Insert
+    INSERT INTO ALUNOS (NOME) VALUES ("Pedro");
+
+    INSERT INTO ALUNOS (NOME, EMAIL, STATUS) 
+        VALUES("Diovana","diovana.pires@gmail.com",false);
+
+    INSERT INTO ALUNOS (ID, NOME, EMAIL, STATUS)
+        VALUES(99,"Bruno","bruno.forfitclub@gmail.com",true);
+
+
+    INSERT INTO ALUNOS (ID, NOME, EMAIL, STATUS)
+     VALUES(null,"Bruno","bruno.forfitclub@gmail.com",true);
+
+      DELETE FROM ALUNOS WHERE ID = 99;
+      SELECT * FROM ALUNOS WHERE ID = 99; 
+
+
+
+---------------
+- PROFESSORES -
+---------------
+- NOME 
+- EMAIL
+- STATUS
+- IDADE
+- MATERIA
+- TURNO
+- SALARIO
