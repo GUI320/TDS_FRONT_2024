@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-B">
+    <time>Javascript</time>
+</head>
+
+<body>
+    <p>Professor</p>
+
+
+
+    <script>
+        const thomas = {
+            nome: "Thomas Turbando",
+            ra: "4829423",
+            cpf: "534.648.309-81",
+            emai: "thom@gmail.com"
+        }
+        const Quico = {
+            nome: "Quico Navara",
+            ra: "2847378",
+            cpf: "971.301.593-81",
+            emai: "quico@gmail.com"
+        }
+        const jacinto = {
+            nome: "Jacinto Pinto",
+            ra: "5785686",
+            cpf: "490.243.692-81",
+            emai: "jacin@gmail.com"
+        }
+        const takamassa = {
+            nome: "Takamassa Nomuro",
+            ra: "5678374",
+            cpf: "408.323.920-81",
+            emai: "takama@gmail.com"
+        }
+
+
+        // const professores = [thomas, quico, jacinto, takamassa];
+
+        // cosole.log(alunos);
+
+        var alunos = [];
+
+        professores.push(thomas);
+        professores.push(quico);
+        professores.push(jacinto);
+        professores.push(takamassa);
+        professores.push({ nome: "thomas", ra: "4829423"});
+        professores.push({ nome: "thomas", cpf: "534.648.309-81"});
+
+        //Exemplo for moderno
+        //for(let index = 0; index < alunos.lenght; index++){
+        //     console.log(alunos[index])
+        // }
+        
+        //Exemplo for moderno array.forEach()
+        // alunos.forEach(function(item,index){
+        //    console.log(index, item);
+        // });
+        //const minha lista = document.getElementById("lista");
+        //Exemplo arrow function ()=>()
+
+        professores.forEach((item) => {
+            console.log(item);
+
+        });
+
+    </script>
+</body>
+</html>

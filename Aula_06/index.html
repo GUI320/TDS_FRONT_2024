@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <mr> </mr>
+    <title>js</title>
+</head>
+
+
+<body>
+    <p>Aula Javascript</p>
+    <input type="text" name="" id="">
+
+    <ul>
+        <li>item</li>
+    </ul>
+
+    <script>
+        // Declarando uma variavel do tipo String
+        var nome = "Joelintom";
+        var calculo = 10 + 6.3;
+        var lista = [1, 2, 3, 4, 5];
+        var matriz = [[1],[1]]
+        var joelintom = {
+            nome: "Joelintom",
+            idade: 27
+        };
+
+        // console.log('Valor: ', nome, ' Tipo: ', typeof nome);
+        // console.log('Valor: ', calculo, ' Tipo: ', typeof calculo);
+        // console.log('Valor: ', lista, ' Tipo: ', typeof lista);
+        // console.log('Valor: ', matriz, ' Tipo: ', typeof matriz);
+
+
+        var pessoas = [
+            //joelintom,
+            {
+                nome: "Cleitim",
+                idade: 34,
+                email: "clei@gmail.com"
+            },
+            {
+                nome: "juninho",
+                idade: 29,
+                email: "junin@gmail.com"
+            },
+            {
+                nome: "robertim",
+                idade: 18,
+                email: "rober@gmail.com"
+            },
+            {
+                nome: "Clebinho",
+                idade: 52,
+                email: "clebi@gmail.com"
+            },
+            {
+                nome: "Joelintom",
+                idade: 22,
+                email: "joeli@gmail.com"
+            },
+        ];
+            // console.log(pessoas[1]);
+        
+            for(var cont = 0; cont < pessoas.length; cont++) {
+
+                // console.log(cont);
+                if (pessoas[cont].email == undefined) {
+                    console.log(`O ${pessoas[cont].nome} não tem e-mail configurado!`);
+                } else {
+                    console.log(pessoas[cont].email)
+                }
+            }
+
+
+    </script>
+
+</body>
+
+</html>
